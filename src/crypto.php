@@ -48,7 +48,7 @@ class Crypto
 	}
 
 	public function generatePwd()
-    {
-        return substr(base64_encode(openssl_random_pseudo_bytes('32')), 0, 9);
-    }
+	{
+        	return substr(base64_encode(openssl_random_pseudo_bytes('32')), 0, 9);
+    	}
 }
